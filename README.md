@@ -62,6 +62,14 @@ Two intent classification approaches were explored during development:
 The supervised model was trained using automatically generated question variants (approximately 15 questions per intent) to improve in-domain accuracy.
 Due to computational constraints, only the inference pipeline is included in this repository.
 
+System validation (qualitative)
+
+The system was manually tested on a small set of representative medical queries to verify:
+- correct entity recognition
+- correct intent-to-query mapping
+- correct Cypher execution on the Neo4j graph
+
+While no large-scale quantitative benchmark is reported, these tests confirm that the end-to-end pipeline functions as designed.
 
 
 
