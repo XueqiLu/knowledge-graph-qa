@@ -1,0 +1,12 @@
+pandas
+numpy
+py2neo
+neo4j
+jieba
+scikit-learn
+gensim
+transformers
+torch
+
+Optional (for model training)
+- CUDA-enabled GPU     (recommended for supervised BERT fine-tuning)
